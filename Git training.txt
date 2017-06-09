@@ -1,8 +1,35 @@
-git init     -- Initialize local git repository
-git add <file>   -- Add file to index
-git status  --check status of working tree
-git commit  -- commit changes in index
+Version Control System for Tracking changes in computer files
 
-git push  --Push to remote repository
-git pull  --pull latest from remote repository
-git clone  -- clone repository into a new directory
+Distributed Version Control System
+Coordinates work between multiple developers
+tracks every single version and every single change that is made in the project
+Revert back any changes as long as it is committed to the repository
+
+No need of internet connection to work on the local - however to push to the remote one, you would need the net connection
+
+Concepts:
+Keeps track of code history
+Takes "snapshots" of your files
+You decide when to take a snapshot by making a "commit"
+You can visit any snapshot at any time
+You can stage files before committing
+
+Basic Commands:
+
+git init        ## Initialize local git repository
+git add <file>      ## Add file to index
+git status     ##check status of working tree
+git commit      ##commit changes in index
+
+git push    ##Push to remote repository
+git pull      ##pull latest from remote repository
+git clone      ## clone repository into a new directory
+
+
+git rm --cached filename   ## to remove the file from staging area
+
+git add .   ##add all the files in the folder to staging area
+
+git commit
+press i to insert comment
+esc + wq for saving the commit
